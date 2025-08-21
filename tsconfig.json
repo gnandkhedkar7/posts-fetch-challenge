@@ -7,7 +7,8 @@
     "strict": true,
     "skipLibCheck": true,
     "outDir": "dist",
-    "resolveJsonModule": true
+    "resolveJsonModule": true,
+      "lib": ["ES2021", "DOM"]  // DOM gives us typings for fetch()
   },
   "include": ["src"]
 }
